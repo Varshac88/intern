@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/00/76/56/92/360_F_76569239_qmAk56ddZbadp5RyTI5zJHSj33ijyh2f.jpg");
+}
+
+.col-7 {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+  }
+.profile-img {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+.col-lg-7 {
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5));
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+
+.nav-link {
+    background-color: lightblue; /* Green */
+border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
